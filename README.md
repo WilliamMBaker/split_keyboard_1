@@ -1,6 +1,6 @@
 # split_keyboard_1
 
-Split keyboard project akin to [this](https://www.graz.io/articles/bayleaf-wireless-keyboard) one.
+Split keyboard project akin to [this](https://www.graz.io/articles/bayleaf-wireless-keyboard) one, and [this](https://github.com/merrittlj/aurora40) one.
 
 ## Requirements
 
