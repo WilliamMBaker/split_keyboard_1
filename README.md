@@ -19,6 +19,9 @@ Split keyboard project akin to [this](https://www.graz.io/articles/bayleaf-wirel
 
 [Link](https://zmk.dev/)
 
+## Layout
+[Link](https://www.keyboard-layout-editor.com/)
+
 ## Resources
 
 - [Nice!Nano v2](https://mechboards.co.uk/products/nice-nano-v2)
