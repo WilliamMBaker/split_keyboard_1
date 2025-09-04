@@ -20,7 +20,7 @@ Split keyboard project akin to [this](https://www.graz.io/articles/bayleaf-wirel
 [Link](https://zmk.dev/)
 
 ## Layout
-[Lik](https://www.keyboard-layout-editor.com/)
+[Link](https://www.keyboard-layout-editor.com/)
 
 ## Resources
 
