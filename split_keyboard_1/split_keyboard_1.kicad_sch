@@ -496,182 +496,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:SW_SPDT"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SW_SPDT"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Switch, single pole double throw"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "switch single-pole double-throw spdt ON-ON"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SW_SPDT_0_1"
-				(circle
-					(center -2.032 0)
-					(radius 0.4572)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.651 0.254) (xy 1.651 2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 2.54)
-					(radius 0.4572)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 -2.54)
-					(radius 0.4572)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SW_SPDT_1_1"
-				(rectangle
-					(start -3.175 3.81)
-					(end 3.175 -3.81)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "parts:B2B-PH-SM4-TB"
 			(pin_names
 				(offset 1.016)
@@ -1106,6 +930,285 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "schematics:SW_SPDT_SSSS811101"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 8.382 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_SPDT_SSSS811101_0_1"
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.048 2.54) (xy -1.27 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy 0.508 3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.048 3.81) (xy 1.27 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.048 1.27) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_SPDT_SSSS811101_1_1"
+				(circle
+					(center -1.27 2.54)
+					(radius 0.3592)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.27 3.81)
+					(radius 0.3592)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.27 1.27)
+					(radius 0.3592)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(text "SSSS811101"
+					(at 0 6.096 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -3.81 -6.35 90)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -1.27 -6.35 90)
+					(length 2.54)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 1.27 -6.35 90)
+					(length 2.54)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 3.81 -6.35 90)
+					(length 2.54)
+					(name "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 7.62 3.81 180)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 7.62 1.27 180)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2110,8 +2213,8 @@
 		(uuid "20303d9f-1f3b-48c5-a71f-bf5400b5ad9d")
 	)
 	(no_connect
-		(at 248.92 27.94)
-		(uuid "3b7ea079-01b2-4223-8600-79ea77ffd9bf")
+		(at 238.76 27.94)
+		(uuid "3f1a09d2-0974-4e49-8f22-2e03ff99b5bc")
 	)
 	(no_connect
 		(at 210.82 68.58)
@@ -2132,10 +2235,6 @@
 	(no_connect
 		(at 213.36 68.58)
 		(uuid "a18a534b-9eb2-4ec8-af1b-3b25146dea95")
-	)
-	(no_connect
-		(at 243.84 30.48)
-		(uuid "a836b346-f459-4430-bc07-20b2b1d497f1")
 	)
 	(no_connect
 		(at 196.85 35.56)
@@ -2355,6 +2454,16 @@
 	)
 	(wire
 		(pts
+			(xy 255.27 29.21) (xy 254 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31569d0f-32fe-445f-8710-d1263a751972")
+	)
+	(wire
+		(pts
 			(xy 82.55 55.88) (xy 82.55 41.91)
 		)
 		(stroke
@@ -2492,6 +2601,16 @@
 			(type default)
 		)
 		(uuid "58969536-4c85-4dd7-827e-c3c41ea99385")
+	)
+	(wire
+		(pts
+			(xy 255.27 29.21) (xy 255.27 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d7556cf-822a-4a42-8fdb-ae626554e43e")
 	)
 	(wire
 		(pts
@@ -2715,13 +2834,23 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 35.56) (xy 247.65 35.56)
+			(xy 257.81 35.56) (xy 247.65 35.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9e9bc4d2-cf5c-48e9-a291-36035fbd8e12")
+	)
+	(wire
+		(pts
+			(xy 255.27 33.02) (xy 257.81 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fb6c1ed-e47f-4373-8042-7b00d04f237d")
 	)
 	(wire
 		(pts
@@ -2732,16 +2861,6 @@
 			(type default)
 		)
 		(uuid "a764547e-1368-49db-a720-4534cb0d1521")
-	)
-	(wire
-		(pts
-			(xy 248.92 33.02) (xy 252.73 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a846365c-e672-432c-8582-62754c4979a1")
 	)
 	(wire
 		(pts
@@ -4097,78 +4216,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_SPDT")
-		(at 243.84 30.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "159d91ec-f230-47e1-9535-a2d91b479293")
-		(property "Reference" "SW31"
-			(at 241.3 22.606 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SW_SPDT"
-			(at 240.03 24.892 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 243.84 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 243.84 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Switch, single pole double throw"
-			(at 243.84 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "40ab0146-3209-40f5-978d-3ca3ba58d427")
-		)
-		(pin "2"
-			(uuid "d63843ba-9206-4f71-89ed-0cf36815a351")
-		)
-		(pin "3"
-			(uuid "46a0544e-00c0-4cea-a2f7-174fb8fa8b7a")
-		)
-		(instances
-			(project ""
-				(path "/dc1d4299-ca53-4805-8c1b-34c27036e41a"
-					(reference "SW31")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Diode:1N4148W")
 		(at 123.19 64.77 90)
 		(unit 1)
@@ -4719,6 +4766,88 @@
 			(project "split_keyboard_1"
 				(path "/dc1d4299-ca53-4805-8c1b-34c27036e41a"
 					(reference "D16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "schematics:SW_SPDT_SSSS811101")
+		(at 246.38 26.67 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "26a5e469-e241-48b2-9728-64d5081408ef")
+		(property "Reference" "SW31"
+			(at 254.762 23.876 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 246.38 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 246.38 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.38 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 246.38 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "08a1de35-2be9-40c3-84d0-d16a8f2a42fe")
+		)
+		(pin ""
+			(uuid "a4fc68ae-883c-42c9-9ed6-5a4433d1fa31")
+		)
+		(pin ""
+			(uuid "2f65175e-8554-4de3-8bf8-14090e99c331")
+		)
+		(pin ""
+			(uuid "1f371714-e538-4cb2-b3d9-44f449ba0b65")
+		)
+		(pin ""
+			(uuid "06d3f036-ef06-4f01-96a8-e8b8e22fdc4c")
+		)
+		(pin ""
+			(uuid "c60441e8-02af-4285-9e9d-93ff44ab94a9")
+		)
+		(pin ""
+			(uuid "f89486d2-3da5-40ac-9d22-365d3e32f139")
+		)
+		(instances
+			(project ""
+				(path "/dc1d4299-ca53-4805-8c1b-34c27036e41a"
+					(reference "SW31")
 					(unit 1)
 				)
 			)
@@ -6134,7 +6263,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:nice!nanoV2_reversible"
+		(property "Footprint" "footprints:nice!nanoV2"
 			(at 212.09 44.45 0)
 			(effects
 				(font
@@ -7028,7 +7157,7 @@
 	)
 	(symbol
 		(lib_id "parts:B2B-PH-SM4-TB")
-		(at 261.62 34.29 0)
+		(at 266.7 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7036,7 +7165,7 @@
 		(dnp no)
 		(uuid "99783b15-8ac5-4f84-afd9-a3d9f262e858")
 		(property "Reference" "J1"
-			(at 261.62 26.416 0)
+			(at 266.7 26.416 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7045,7 +7174,7 @@
 			)
 		)
 		(property "Value" "B2B-PH-SM4-TB"
-			(at 255.524 28.956 0)
+			(at 260.604 28.956 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7054,7 +7183,7 @@
 			)
 		)
 		(property "Footprint" "B2B-PH-SM4-TB:JST_B2B-PH-SM4-TB"
-			(at 261.62 34.29 0)
+			(at 266.7 34.29 0)
 			(effects
 				(font
 					(size 0.001 0.001)
@@ -7064,7 +7193,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 261.62 34.29 0)
+			(at 266.7 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7073,7 +7202,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 261.62 34.29 0)
+			(at 266.7 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7082,7 +7211,7 @@
 			)
 		)
 		(property "MF" "JST"
-			(at 260.858 34.29 0)
+			(at 265.938 34.29 0)
 			(effects
 				(font
 					(size 0.001 0.001)
@@ -7092,7 +7221,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "6.6 mm"
-			(at 261.62 34.036 0)
+			(at 266.7 34.036 0)
 			(effects
 				(font
 					(size 0.001 0.001)
@@ -7102,7 +7231,7 @@
 			)
 		)
 		(property "Package" "NON STANDARD-2 JST"
-			(at 259.334 34.29 0)
+			(at 264.414 34.29 0)
 			(effects
 				(font
 					(size 0.001 0.001)
@@ -7112,7 +7241,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 260.858 34.29 0)
+			(at 265.938 34.29 0)
 			(effects
 				(font
 					(size 0.001 0.001)
@@ -7122,7 +7251,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/B2B-PH-SM4-TB/JST/view-part/?ref=eda"
-			(at 261.62 34.29 0)
+			(at 266.7 34.29 0)
 			(effects
 				(font
 					(size 0.001 0.001)
@@ -7132,7 +7261,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 261.62 34.29 0)
+			(at 266.7 34.29 0)
 			(effects
 				(font
 					(size 0.001 0.001)
@@ -7142,7 +7271,7 @@
 			)
 		)
 		(property "PARTREV" "N/A"
-			(at 260.858 34.29 0)
+			(at 265.938 34.29 0)
 			(effects
 				(font
 					(size 0.001 0.001)
@@ -7152,7 +7281,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/B2B-PH-SM4-TB/JST/view-part/?ref=snap"
-			(at 261.62 34.29 0)
+			(at 266.7 34.29 0)
 			(effects
 				(font
 					(size 0.001 0.001)
@@ -7162,7 +7291,7 @@
 			)
 		)
 		(property "MP" "B2B-PH-SM4-TB"
-			(at 259.334 34.29 0)
+			(at 264.414 34.29 0)
 			(effects
 				(font
 					(size 0.001 0.001)
@@ -7172,7 +7301,7 @@
 			)
 		)
 		(property "Description_1" "Connector Header Surface Mount 2 position 0.079 (2.00mm)"
-			(at 261.62 34.29 0)
+			(at 266.7 34.29 0)
 			(effects
 				(font
 					(size 0.001 0.001)
@@ -7182,7 +7311,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 260.604 34.036 0)
+			(at 265.684 34.036 0)
 			(effects
 				(font
 					(size 0.001 0.001)
@@ -7192,7 +7321,7 @@
 			)
 		)
 		(property "MANUFACTURER" "JST"
-			(at 263.652 34.29 0)
+			(at 268.732 34.29 0)
 			(effects
 				(font
 					(size 0.001 0.001)
