@@ -1,4 +1,4 @@
-25650871855141010
+25656143246127127
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -72071,6 +72071,13 @@ Kailh Keyboard Keyswitch Switch Hotswap Socket Plated Relief Cutout Keycap ISOEn
 0
 6
 2
+PCM_Switch_Keyboard_Hotswap_Kailh
+Untitled
+
+
+0
+7
+7
 PCM_Switch_Keyboard_Hybrid
 SW_Hybrid_Cherry_MX_Alps
 Cherry MX / Alps keyswitch hybrid
@@ -103088,6 +103095,20 @@ Varistor VF
 0
 2
 2
+footprints
+EVQPU_BTN
+
+
+0
+4
+4
+footprints
+SSSS811101_SW_SPDT
+
+
+0
+7
+7
 footprints
 nice!nanoV2
 

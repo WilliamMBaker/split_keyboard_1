@@ -52,7 +52,7 @@
 		(symbol "SW_SPDT_SSSS811101_0_1"
 			(rectangle
 				(start -5.08 5.08)
-				(end 5.08 -3.81)
+				(end 5.08 0)
 				(stroke
 					(width 0)
 					(type default)
@@ -155,32 +155,14 @@
 			(pin bidirectional line
 				(at -7.62 2.54 0)
 				(length 2.54)
-				(name "2"
+				(name "C"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at -3.81 -6.35 90)
-				(length 2.54)
-				(name "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -189,16 +171,16 @@
 				)
 			)
 			(pin no_connect line
-				(at -1.27 -6.35 90)
+				(at -3.81 -2.54 90)
 				(length 2.54)
-				(name "5"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number ""
+				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -207,16 +189,16 @@
 				)
 			)
 			(pin no_connect line
-				(at 1.27 -6.35 90)
+				(at -1.27 -2.54 90)
 				(length 2.54)
-				(name "6"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number ""
+				(number "5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -225,16 +207,34 @@
 				)
 			)
 			(pin no_connect line
-				(at 3.81 -6.35 90)
+				(at 1.27 -2.54 90)
 				(length 2.54)
-				(name "7"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number ""
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 3.81 -2.54 90)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -245,14 +245,14 @@
 			(pin bidirectional line
 				(at 7.62 3.81 180)
 				(length 2.54)
-				(name "1"
+				(name "A"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number ""
+				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -263,14 +263,14 @@
 			(pin bidirectional line
 				(at 7.62 1.27 180)
 				(length 2.54)
-				(name "3"
+				(name "B"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number ""
+				(number "3"
 					(effects
 						(font
 							(size 1.27 1.27)

@@ -7,7 +7,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "SW"
-			(at 0 6.096 0)
+			(at 0 8.382 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -52,7 +52,55 @@
 		(symbol "SW_SPDT_SSSS811101_0_1"
 			(rectangle
 				(start -5.08 5.08)
-				(end 5.08 -5.08)
+				(end 5.08 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.048 2.54) (xy -1.27 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 2.54) (xy 0.508 3.556)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.048 3.81) (xy 1.27 3.81)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.048 1.27) (xy 1.27 1.27)
+				)
 				(stroke
 					(width 0)
 					(type default)
@@ -63,53 +111,58 @@
 			)
 		)
 		(symbol "SW_SPDT_SSSS811101_1_1"
-			(pin bidirectional line
-				(at -7.62 3.81 0)
-				(length 2.54)
-				(name "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
+			(circle
+				(center -1.27 2.54)
+				(radius 0.3592)
+				(stroke
+					(width 0)
+					(type solid)
 				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
+				(fill
+					(type outline)
+				)
+			)
+			(circle
+				(center 1.27 3.81)
+				(radius 0.3592)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(circle
+				(center 1.27 1.27)
+				(radius 0.3592)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(text "SSSS811101"
+				(at 0 6.096 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at -7.62 1.27 0)
+				(at -7.62 2.54 0)
 				(length 2.54)
-				(name "2"
+				(name "C"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -7.62 -1.27 0)
-				(length 2.54)
-				(name "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -118,16 +171,16 @@
 				)
 			)
 			(pin no_connect line
-				(at -7.62 -3.81 0)
+				(at -3.81 -2.54 90)
 				(length 2.54)
-				(name "4"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number ""
+				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -136,16 +189,70 @@
 				)
 			)
 			(pin no_connect line
+				(at -1.27 -2.54 90)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 1.27 -2.54 90)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 3.81 -2.54 90)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
 				(at 7.62 3.81 180)
 				(length 2.54)
-				(name "5"
+				(name "A"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number ""
+				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -153,35 +260,17 @@
 					)
 				)
 			)
-			(pin no_connect line
+			(pin bidirectional line
 				(at 7.62 1.27 180)
 				(length 2.54)
-				(name "6"
+				(name "B"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 7.62 -1.27 180)
-				(length 2.54)
-				(name "7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
+				(number "3"
 					(effects
 						(font
 							(size 1.27 1.27)

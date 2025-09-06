@@ -990,7 +990,7 @@
 			(symbol "SW_SPDT_SSSS811101_0_1"
 				(rectangle
 					(start -5.08 5.08)
-					(end 5.08 -3.81)
+					(end 5.08 0)
 					(stroke
 						(width 0)
 						(type default)
@@ -1093,32 +1093,14 @@
 				(pin bidirectional line
 					(at -7.62 2.54 0)
 					(length 2.54)
-					(name "2"
+					(name "C"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at -3.81 -6.35 90)
-					(length 2.54)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1127,16 +1109,16 @@
 					)
 				)
 				(pin no_connect line
-					(at -1.27 -6.35 90)
+					(at -3.81 -2.54 90)
 					(length 2.54)
-					(name "5"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number ""
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1145,16 +1127,16 @@
 					)
 				)
 				(pin no_connect line
-					(at 1.27 -6.35 90)
+					(at -1.27 -2.54 90)
 					(length 2.54)
-					(name "6"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number ""
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1163,16 +1145,34 @@
 					)
 				)
 				(pin no_connect line
-					(at 3.81 -6.35 90)
+					(at 1.27 -2.54 90)
 					(length 2.54)
-					(name "7"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number ""
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 3.81 -2.54 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1183,14 +1183,14 @@
 				(pin bidirectional line
 					(at 7.62 3.81 180)
 					(length 2.54)
-					(name "1"
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number ""
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1201,14 +1201,14 @@
 				(pin bidirectional line
 					(at 7.62 1.27 180)
 					(length 2.54)
-					(name "3"
+					(name "B"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number ""
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2213,10 +2213,6 @@
 		(uuid "20303d9f-1f3b-48c5-a71f-bf5400b5ad9d")
 	)
 	(no_connect
-		(at 238.76 27.94)
-		(uuid "3f1a09d2-0974-4e49-8f22-2e03ff99b5bc")
-	)
-	(no_connect
 		(at 210.82 68.58)
 		(uuid "50cacefe-4b75-4096-a976-91c284ca35e0")
 	)
@@ -2235,6 +2231,10 @@
 	(no_connect
 		(at 213.36 68.58)
 		(uuid "a18a534b-9eb2-4ec8-af1b-3b25146dea95")
+	)
+	(no_connect
+		(at 254 26.67)
+		(uuid "b9a6a769-ca25-4dce-98bf-35b15ab94ca6")
 	)
 	(no_connect
 		(at 196.85 35.56)
@@ -2861,6 +2861,16 @@
 			(type default)
 		)
 		(uuid "a764547e-1368-49db-a720-4534cb0d1521")
+	)
+	(wire
+		(pts
+			(xy 238.76 27.94) (xy 238.76 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a90616e6-38b8-4017-9a3c-9fc7034d31ff")
 	)
 	(wire
 		(pts
@@ -3775,7 +3785,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:EVQPU_BTN"
 			(at 242.57 35.56 0)
 			(effects
 				(font
@@ -4766,88 +4776,6 @@
 			(project "split_keyboard_1"
 				(path "/dc1d4299-ca53-4805-8c1b-34c27036e41a"
 					(reference "D16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "schematics:SW_SPDT_SSSS811101")
-		(at 246.38 26.67 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "26a5e469-e241-48b2-9728-64d5081408ef")
-		(property "Reference" "SW31"
-			(at 254.762 23.876 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 246.38 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 246.38 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 246.38 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 246.38 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "08a1de35-2be9-40c3-84d0-d16a8f2a42fe")
-		)
-		(pin ""
-			(uuid "a4fc68ae-883c-42c9-9ed6-5a4433d1fa31")
-		)
-		(pin ""
-			(uuid "2f65175e-8554-4de3-8bf8-14090e99c331")
-		)
-		(pin ""
-			(uuid "1f371714-e538-4cb2-b3d9-44f449ba0b65")
-		)
-		(pin ""
-			(uuid "06d3f036-ef06-4f01-96a8-e8b8e22fdc4c")
-		)
-		(pin ""
-			(uuid "c60441e8-02af-4285-9e9d-93ff44ab94a9")
-		)
-		(pin ""
-			(uuid "f89486d2-3da5-40ac-9d22-365d3e32f139")
-		)
-		(instances
-			(project ""
-				(path "/dc1d4299-ca53-4805-8c1b-34c27036e41a"
-					(reference "SW31")
 					(unit 1)
 				)
 			)
@@ -6062,6 +5990,88 @@
 		)
 	)
 	(symbol
+		(lib_id "schematics:SW_SPDT_SSSS811101")
+		(at 246.38 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6efe82e8-cd6f-4c1c-8cde-14f0a0bc2e71")
+		(property "Reference" "SW31"
+			(at 246.38 22.352 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 246.38 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:SSSS811101_SW_SPDT"
+			(at 246.38 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.38 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 246.38 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "03ca082e-9763-4975-a563-44d551276f75")
+		)
+		(pin "4"
+			(uuid "5c3d41cd-14d1-451e-b795-4abe9df35094")
+		)
+		(pin "5"
+			(uuid "d20a4022-2126-4244-b206-fa0bb01fa8fc")
+		)
+		(pin "7"
+			(uuid "19c3caba-df89-4c62-9867-63614124bc1b")
+		)
+		(pin "2"
+			(uuid "2bbe47ee-29d6-4940-a2d9-7568d993299f")
+		)
+		(pin "3"
+			(uuid "db0f1d21-6f24-422a-80c0-09fdb857d825")
+		)
+		(pin "1"
+			(uuid "45b3ffcf-c91b-44e9-881e-35163bca15cf")
+		)
+		(instances
+			(project ""
+				(path "/dc1d4299-ca53-4805-8c1b-34c27036e41a"
+					(reference "SW31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:1N4148W")
 		(at 69.85 107.95 90)
 		(unit 1)
@@ -7182,7 +7192,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "B2B-PH-SM4-TB:JST_B2B-PH-SM4-TB"
+		(property "Footprint" "Connector_JST:JST_GH_SM02B-GHS-TB_1x02-1MP_P1.25mm_Horizontal"
 			(at 266.7 34.29 0)
 			(effects
 				(font
