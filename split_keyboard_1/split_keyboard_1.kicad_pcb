@@ -37330,6 +37330,17 @@
 			(uuid "11232cd4-bde2-4b2c-a77d-9e74c484a241")
 		)
 		(embedded_fonts no)
+		(model "C:/Users/Willi/Documents/Personal/Projects/Keyboards/Examples/SSSS811101/3D/SSSS811101.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "B.Cu")
@@ -40813,6 +40824,17 @@
 			(uuid "f2dbfc60-35e7-4c3a-ae2f-e91571dce606")
 		)
 		(embedded_fonts no)
+		(model "C:/Users/Willi/Documents/Personal/Projects/Keyboards/Examples/EVQ-PUL02K/3D/EVQ-PUL02K.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "B.Cu")
