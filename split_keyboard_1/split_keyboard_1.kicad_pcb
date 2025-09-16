@@ -43,9 +43,9 @@
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
 			(disableapertmacros no)
 			(usegerberextensions no)
-			(usegerberattributes yes)
-			(usegerberadvancedattributes yes)
-			(creategerberjobfile yes)
+			(usegerberattributes no)
+			(usegerberadvancedattributes no)
+			(creategerberjobfile no)
 			(dashed_line_dash_ratio 12.000000)
 			(dashed_line_gap_ratio 3.000000)
 			(svgprecision 4)
@@ -71,12 +71,12 @@
 			(hidednponfab no)
 			(sketchdnponfab yes)
 			(crossoutdnponfab yes)
-			(subtractmaskfromsilk no)
+			(subtractmaskfromsilk yes)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "order/gerber/")
 		)
 	)
 	(net 0 "")
@@ -35996,7 +35996,7 @@
 			(at 0 -17.78 90)
 			(unlocked yes)
 			(layer "B.SilkS")
-			(uuid "07a9aa74-29ed-401d-a4bb-7a4fbf00632a")
+			(uuid "1bf92ba8-f384-4438-80b8-502551374979")
 			(effects
 				(font
 					(size 1 1)
@@ -36009,7 +36009,7 @@
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
-			(uuid "3f90507a-d1d3-420d-8fbb-19cbec3d8e7d")
+			(uuid "fbc08183-99bf-461a-887a-c1c710c206d5")
 			(effects
 				(font
 					(size 1 1)
@@ -36023,7 +36023,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "07e1b26f-3682-4c09-b844-bfd03430a8f5")
+			(uuid "384bbfde-419d-4613-9e84-7b2fd25977ab")
 			(effects
 				(font
 					(size 1 1)
@@ -36037,7 +36037,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "31f14ec1-16c9-471e-834d-a1096064ca7a")
+			(uuid "e00610e4-761b-4b0c-a278-6c7a448bb2b8")
 			(effects
 				(font
 					(size 1 1)
@@ -36396,6 +36396,39 @@
 			(uuid "32f09039-c0e1-4ec4-bb6a-54701b46271a")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/3d_models/nice_nano_v2.step"
+			(offset
+				(xyz 0 0 4)
+			)
+			(scale
+				(xyz 0.675 0.675 0.675)
+			)
+			(rotate
+				(xyz -0 -0 90)
+			)
+		)
+		(model "${KIPRJMOD}/3d_models/mill-max 12pin 310-13-112-41-001000 v1.step"
+			(offset
+				(xyz 9 -16.5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -90)
+			)
+		)
+		(model "${KIPRJMOD}/3d_models/mill-max 12pin 310-13-112-41-001000 v1.step"
+			(offset
+				(xyz -6.5 -16.5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -90)
+			)
+		)
 	)
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "B.Cu")
